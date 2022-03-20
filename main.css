@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.main-header{
+    width: 100%;
+    background-color: #a6ff4d;
+    padding: 10px;
+
+}
+header > div{        /* Select all div which are child of .main-header*/
+    display: inline-block;
+    vertical-align: middle;  
+}
+
+.main-header__brand{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 200px);
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+.main-nav__item{
+    display: inline-block;
+    margin: 0;
+}
+.main-nav__item a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 14px;
+    font-weight: bold;
+    
+    
+}
+
+.main-nav__item--btn{
+    background-color: crimson;
+    border-radius: 8px;
+    padding: 10px 0;
+} 
+/* .main-nav__item a::after{        // pesudo Element like ::after  ::before ::first-letter and so on 
+    content: " + ";
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.main-nav__item :hover{
+    background-color: black;
+    border-radius: 8px;
+    padding: 14px;
+}
+#product-overview{
+    background: #ff1b68;
+    width: 100%;
+    margin-top: 0;
+    height: 528px;
+    padding: 10px;
+    background: url("freedom.jpg");
+}
+.section-title{
+    color: #2ddf5c;
+    margin-top: 0;
+}
+#product-overview h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
