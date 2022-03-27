@@ -5,10 +5,12 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+
 }
 
 .main-header{
     width: 100%;
+
     background-color: #a6ff4d;
     padding: 10px;
 
@@ -80,13 +82,69 @@ header > div{        /* Select all div which are child of .main-header*/
 }
 .section-title{
     color: #2ddf5c;
-    margin-top: 0;
+    margin-top: 20px;
+    text-align: center;
 }
 #product-overview h1{
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+.plans-main-div{
+    border: 1px solid red;
+    height: 600px;
+    text-align: center;
 
+
+}
+
+.plan{
+    margin-left: 30px;
+    width: 20%;
+    display: inline-block;
+    padding: 20px;
+    min-width:fit-content;
+    margin-top: 20px;
+    vertical-align: middle;
+
+}
+.plan-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.plan-ul li{
+    margin: 9px 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recomonded-title{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight:1200;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+.plans-btn{
+    background-color: #0e4f1f;
+    color: whitesmoke;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.free{
+        background-color: lightblue;
+
+}
+.recomended{
+    background-color:#19b84c;
+    color: wheat;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
 
 
 
