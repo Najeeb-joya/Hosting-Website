@@ -7,38 +7,26 @@ body{
     margin: 0;
 
 }
-
 .main-header{
     width: 100%;
-
     background-color: #a6ff4d;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
-header > div{        /* Select all div which are child of .main-header*/
-    display: inline-block;
-    vertical-align: middle;  
-}
-
 .main-header__brand{
     color: white;
     text-decoration: none;
     font-size: 25px;
     font-weight: bolder;
-    vertical-align: middle;
-}
-
-.main-nav{
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 200px);
+    margin-left: 30px;
 }
 
 .main-nav__items{
-    margin: 0;
+    margin-right: 30px;
     padding: 0;
     list-style: none;
-    display: block;
 }
 
 .main-nav__item{
