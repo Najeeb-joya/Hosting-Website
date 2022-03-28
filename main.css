@@ -27,7 +27,7 @@ body{
 }
 
 .main-nav__items{
-    margin-right: 30px;
+    margin-right: 35px;
     padding: 0;
     list-style: none;
     font-size: 30px;
@@ -52,7 +52,11 @@ body{
 .main-nav__item--btn{
     background-color: crimson;
     border-radius: 8px;
-    padding: 10px 0;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 6px;
+   
+
 } 
 /* .main-nav__item a::after{        // pesudo Element like ::after  ::before ::first-letter and so on 
     content: " + ";
@@ -79,14 +83,15 @@ body{
     margin-top: 40px;
     margin-bottom: 0;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 #product-overview h1{
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 .plans-main-div{
-    height: 600px;
+    height: 400px;
+    max-height: 1800px;
     text-align: center;
     margin-top: 0;
 
@@ -113,6 +118,11 @@ body{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+.plan-title{
+    font-size: 25px;
+    font-weight: bolder;
+
+}
 .recomonded-title{
     background-color: white;
     color: black;
@@ -132,21 +142,47 @@ body{
     cursor: pointer;
 }
 
-.plans-btn:hover{
+.plans-btn:hover, .plans-btn:active{
     background-color: white;
     color: #0e4f1f;
-    font-weight: bolder;
 }
-.free{
-        background-color: lightblue;
+.plans-btn:focus{
+    outline: none;
 
 }
+.free{
+        background-color: rgb(105, 204, 236);
+}
+
 .recomended{
     background-color:#19b84c;
     color: white;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.7);
 }
 
+.key-features{
+    background-color: #a70f42;
+    margin-top: 80px;
+    padding: 20px;
+
+}
+
+.key-features-title{
+    color: white;
+    
+}
+.key-features ul{
+    display:flex;
+    justify-content: space-between;
+}
+.key-features li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
 
 
 
