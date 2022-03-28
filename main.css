@@ -127,8 +127,15 @@ body{
     padding: 10px;
     font-weight: bolder;
     border-radius: 8px;
-    margin-top: 10px;
+    margin-top: 5px;
+
     cursor: pointer;
+}
+
+.plans-btn:hover{
+    background-color: white;
+    color: #0e4f1f;
+    font-weight: bolder;
 }
 .free{
         background-color: lightblue;
