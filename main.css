@@ -173,20 +173,31 @@ body{
     font-size: 35px;
     
 }
-.key-features ul{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+.key-features__image{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px black solid;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 40px;
+    
+
 }
-.key-features li{
-    display: inline-block;
+.key-features__lists{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.key-feature{
+    display: inline-block;
     padding-right: 20px;
+    width: 30%;
     color: white;
     font-size: 25px;
     font-weight: 600;
 }
-
-
 
 
