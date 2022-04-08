@@ -220,6 +220,8 @@ body{
     margin-left: 20px;
     font-size: 18px;
     font-weight: 300;
-
 }
-
+.main-footer__link a:hover, 
+.main-footer__link a:active{
+    color: rgb(80, 77, 77)
+}
