@@ -1,0 +1,38 @@
+.main-packages{
+    width: 80%;
+   margin: 20px auto;
+   border: 3px darkgreen solid;
+   padding-left: 40px;
+}
+.plus-package{
+    background-color: lightblue;
+}
+.free-package{
+    background-color: rgb(213, 224, 221);
+
+}
+.premium-package{
+    background: rgb(8, 39, 8);
+}
+
+.main-packages a {
+    text-decoration: none;
+}
+.package-title{
+    color: black;
+
+}
+.premium-package .package-title{
+    color: white;
+}
+.package-ads{
+    color: rgb(151, 147, 147);
+}
+.package-description{
+    color: black;
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 25px;
+}
