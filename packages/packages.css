@@ -36,3 +36,6 @@
     border: 2px solid black;
     font-size: 25px;
 }
+.main-packages:hover{
+    border: 3px orangered solid;
+}
