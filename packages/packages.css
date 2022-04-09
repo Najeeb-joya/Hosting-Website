@@ -2,6 +2,7 @@
     width: 80%;
    margin: 20px auto;
    border: 3px darkgreen solid;
+   border-radius: 15px;
    padding-left: 40px;
 }
 .plus-package{
