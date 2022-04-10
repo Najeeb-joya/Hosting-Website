@@ -3,7 +3,7 @@ main{
     padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
 
     
 }
@@ -12,7 +12,8 @@ main{
    margin: 20px 0;
    border: 3px darkgreen solid;
    padding-left: 40px;
-   border-left: none;
+
+
 }
 .plus-package{
     background-color: lightblue;
@@ -50,5 +51,5 @@ main{
 }
 .main-packages:hover{
     border: 3px orangered solid;
-    border-left: none;
+    
 }
