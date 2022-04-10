@@ -17,6 +17,7 @@ main{
 }
 .plus-package{
     background-color: lightblue;
+    margin-top: 100px;
 }
 .free-package{
     background-color: rgb(213, 224, 221);
