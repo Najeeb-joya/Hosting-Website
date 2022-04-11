@@ -11,7 +11,7 @@ body{
 
 .main-header{
     width: 100%;
-    height: 100px;
+    height: 60px;
     background-color: #83c93d;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    
 
 }
 .main-header__brand{
