@@ -9,11 +9,12 @@ main{
 }
 .background-img{
     background: url("../images/plans-bg-img.jpg");
+    background-size: cover;
+    background-position: left 5% top 30%;
     position: fixed;
     z-index: -1;
     width: 100%;
     height: 100%;
-    margin-top: 60px;
 }
 .main-packages{
     width: 65%;
